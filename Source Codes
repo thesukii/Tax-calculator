@@ -9,7 +9,7 @@ int tax;
 int product1 , product1total , total1;
 int product2 , product2total , total2;
 int product3 , product3total , total3;
-int totallast;
+int lasttotal;
 
 product1=4;
 product2=5;
@@ -21,3 +21,16 @@ cin>>product2total;
 cout<<"enter total sell from product 3:"<<" ";
 cin>>product3total;
 //After obtaining all the data, we can proceed to the action.//
+total1=product1total*product1
+total2=product2total*product2
+total3=product3total*product3
+lasttotal=product1total+product2total+product3total;
+//for better view in terminal im using "----" line like this//
+cout<<"--------------------"<<endl;
+cout<<"Before tax:"<<" "<<lasttotal<<"$"<<endl;
+cout<<"--------------------"<<endl;
+tax=lasttotal*18/100;
+// tax will be applied right here. //
+//TO CHANGE THE TAX PERCENT JUST CHANGE THE NUMBER OF 18 IN LINE //
+cout<<"Tax cost:"<<" "<<tax<<"$"<<endl;
+cout<<"--------------------";
