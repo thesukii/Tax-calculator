@@ -1,7 +1,23 @@
 #include <iostream>
 #include <cmath>
 #include <math.h>
-/*Kütüphaneler tanımlandı*/
 using namespace std;
 
 int main()
+{
+int tax;
+int product1 , product1total , total1;
+int product2 , product2total , total2;
+int product3 , product3total , total3;
+int totallast;
+
+product1=4;
+product2=5;
+product3=5;
+cout<<"enter total sell from product 1:"<<" ";
+cin>>product1total;
+cout<<"enter total sell from product 2:"<<" ";
+cin>>product2total;
+cout<<"enter total sell from product 3:"<<" ";
+cin>>product3total;
+//After obtaining all the data, we can proceed to the action.//
