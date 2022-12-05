@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <math.h>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -10,7 +11,7 @@ int product1 , product1total , total1;
 int product2 , product2total , total2;
 int product3 , product3total , total3;
 int lasttotal;
-
+// im giving product cost but u can use if while loop and generate advanced app which you can give cost and calculate.//
 product1=4;
 product2=5;
 product3=5;
